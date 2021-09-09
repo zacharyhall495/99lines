@@ -9,25 +9,37 @@ function singingFriends(friends) {
     name = friends[i];
 
     for (let x = songCount; x > 0; x--)
-      if (x > 1) {
+      if (x > 2) {
         y = x - 1;
 
         console.log(
           x +
-            " lines of code to write" +
+            " lines of code to write " +
              x +
             " lines of code;" +
              name +
-            " strikes one out, leaves a comment" +
+            " strikes one out, leaves a comment " +
              y +
             " lines of code to write"
-        );
-      } else {
+            );
+        } 
+        
+        else if (x == 2){ console.log (x +
+            " lines of code to write " +
+             x +
+            " lines of code; " +
+             name +
+            " strikes one out, leaves a comment " +
+        (x - 1) +
+            " line of code to write")
+         }
+     
+        else {
         console.log(
           x +
-            " line of code to write" +
+            " line of code to write " +
              x +
-            " more line of code;" +
+            " more line of code; " +
             name +
             " strikes it out, leaves a comment. No more lines of code left to write"
         );
