@@ -9,6 +9,6 @@ body {
     background-color: crimson;
 }
 
-.friend  {
-    text-transform: capitalize;
+.friend > h3 {
+    text-transform: uppercase;
 }
