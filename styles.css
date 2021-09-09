@@ -2,10 +2,13 @@ body {
     background-color: aqua;
 };
 
+#header {
+    color: darkorange;
+}
 .friend {
     background-color: crimson;
 }
 
-.friend  h3 {
+.friend  {
     text-transform: capitalize;
 }
